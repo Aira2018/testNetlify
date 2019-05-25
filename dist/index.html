@@ -6,42 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <title>Netlify | Aira2018</title>
 </head>
 
-<body>
-    <div>
-        <h3>testing with the netlify</h3>
-    </div>
-    <div>
-        <form class='memberform' netlify>
-            <div>
-                <h4>Register with name and Email</h4>
-            </div>
-            <div>
-                <label>usename :</label>
-            </div>
-            <div>
-                <input type="text" name='username' />
-            </div>
-            <div>
-                <label>Email :</label>
-            </div>
-            <div>
-                <input type='email' name='email' />
-            </div>
-            <div>
-                <input type="file" name='uploadfile' />
-            </div>
-            <div>
-                <input type='submit' name='submit' value="be a menber" />
+<body id='bg-img'>
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <div class="menu-branding">
+            <div class="potrait">
+                <li class="nav-item">
+                    <a ref="/" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a ref="/about.html" class="nav-link">
+                        About Me
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a ref="/project.html" class="nav-link">
+                        Projects
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a ref="/contact.html" class="nav-link">
+                        Reach Me
+                    </a>
+                </li>
             </div>
 
-        </form>
-    </div>
+        </div>
+        <ul class="menu-nav">
 
+        </ul>
 
+    </nav>
+    <main id="home">
+        <h1 class="lg-heading">
+            Aira2018 <span class="text-secondary">Avyas</span>
+        </h1>
+        <h2 class="sm-heading">
+            Front-End Designer / Web Developer & Programmer
+        </h2>
+        <div class="icons">
+            <a href="#">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
