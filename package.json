@@ -1,0 +1,23 @@
+{
+  "name": "testNetlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aira2018/testNetlify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aira2018/testNetlify/issues"
+  },
+  "homepage": "https://github.com/Aira2018/testNetlify#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
