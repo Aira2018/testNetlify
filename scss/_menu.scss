@@ -1,3 +1,5 @@
+@import 'config';
+
 .menu-btn {
     position: absolute;
     z-index: 3;
@@ -20,4 +22,32 @@
         transform: rotate(180deg);
     }
 
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100;
+    opacity: 0.9;
+    visibility: hidden;
+
+    &.show {
+        visibility: visible;
+    }
+
+    .menu-nav {
+        display: flex;
+        list-style: none;
+        font-size: 2rem;
+        margin: 2rem;
+
+    }
+
+    .nav-item {
+        padding: 1rem;
+    }
+
+    .potrait {
+        background-image: url('../dist/img/bg1.jpg')
+    }
 }
