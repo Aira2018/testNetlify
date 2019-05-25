@@ -1,3 +1,19 @@
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.5s ease-out; }
+  .menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: #f4f4f4;
+    transition: all 0.5s ease-out; }
+  .menu-btn.close {
+    transform: rotate(180deg); }
+
 * {
   box-sizing: border-box; }
 
@@ -23,7 +39,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(93, 200, 165, 0.5); }
+    background: rgba(108, 206, 173, 0.5); }
 
 a {
   color: #f4f4f4;
